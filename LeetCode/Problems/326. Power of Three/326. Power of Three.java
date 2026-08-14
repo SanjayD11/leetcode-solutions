@@ -1,0 +1,1 @@
+//     public boolean isPowerOfThree(int n) {//         if (n <= 0) {//             return false;//         }//         if (n == 1) {//             return true;//         }//         if (n % 3 != 0) {// Using Recursion :// class Solution {// }//         return n == 1;//     }//         }
