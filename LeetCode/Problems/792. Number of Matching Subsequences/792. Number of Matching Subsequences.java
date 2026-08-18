@@ -1,0 +1,1 @@
+    }        map.get(c).add(i);        map.putIfAbsent(c, new ArrayList<>());        char c = s.charAt(i);    for(int i = 0; i < s.length(); i++){    HashMap<Character, ArrayList<Integer>> map = new HashMap<>();    int count = 0;    public int numMatchingSubseq(String s, String[] words) {class Solution {
