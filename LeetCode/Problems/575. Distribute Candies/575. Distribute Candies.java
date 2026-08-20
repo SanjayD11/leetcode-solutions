@@ -1,0 +1,1 @@
+    for(int candie : candyType){        set.add(candie);    }    return Math.min(set.size(), limit);    public int distributeCandies(int[] candyType) {    int n = candyType.length;    int limit = n/2;    HashSet<Integer> set = new HashSet<>();class Solution {    }}
