@@ -1,0 +1,1 @@
+    int ans = q1.peek();    q2.offer(q1.poll());        Queue<Integer> temp = q1;        q1 = q2;        q2 = temp;        return ans;    }    public boolean empty() {        return q1.isEmpty();    }}// Using One Queue :// class MyStack {//     Queue<Integer> q = new LinkedList<>();//     public void push(int x) {
