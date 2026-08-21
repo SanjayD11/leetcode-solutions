@@ -1,0 +1,1 @@
+    return st2.pop();    }            st2.push(st1.pop());        }        while(!st1.isEmpty()){    if(st2.isEmpty()){    public int pop() {    }     st1.push(x);       public void push(int x) {    }        st2 = new Stack<>();         st1 = new Stack<>();    public MyQueue() {    Stack<Integer> st2;    Stack<Integer> st1;class MyQueue {// Using Two Stacks :
