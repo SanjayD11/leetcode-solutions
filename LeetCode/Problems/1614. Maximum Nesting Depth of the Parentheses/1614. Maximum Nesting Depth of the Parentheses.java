@@ -1,0 +1,1 @@
+    public int maxDepth(String s) {    Stack<Integer> st = new Stack<>();    int n = s.length();    int depth = 0;    for(char c : s.toCharArray()){      if(c == '('){    }        depth++;      }    return maxDepth;    int maxDepth = 0;        maxDepth = Math.max(maxDepth, depth);      else if(c == ')'){        depth--;      }    }class Solution {
