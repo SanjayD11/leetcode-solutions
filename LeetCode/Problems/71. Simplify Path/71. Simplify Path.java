@@ -1,0 +1,1 @@
+            st.push(folder);        }        }        for(String folder : st){        sb.append(/).append(folder);    }     return (st.size() == 0)? /: sb.toString();    }    }    /*1. Path ah / vachu split panni, ovvoru folder ah process pannrom.2. . and empty () na ignore pannrom, .. na stack empty illa na pop pannrom.3. Matha normal folder names ellam stack la push pannrom.
