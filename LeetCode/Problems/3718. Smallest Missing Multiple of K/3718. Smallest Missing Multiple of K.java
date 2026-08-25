@@ -1,0 +1,1 @@
+//             if (num == expected) {//                 expected += k;//             }//             else if (num > expected && num % k == 0) {//                 return expected;//             if (num < expected) continue;//         for (int num : nums) {//             }//         }//         return expected;//     }// }
