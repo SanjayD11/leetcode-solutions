@@ -1,0 +1,1 @@
+            i++;            if(i == target.length){                break;            }        }        else{            res.add(Pop);        }    }        res.add(Push);        if(num == target[i]){    for(int num = 1; num <= n; num++){    int i = 0;    public List<String> buildArray(int[] target, int n) {    List<String> res = new ArrayList<>();class Solution {
