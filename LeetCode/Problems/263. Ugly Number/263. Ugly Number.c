@@ -1,0 +1,1 @@
+        n/=3;    }    while(n%5==0){        n/=5;    }    return (n==1);    }}/*2, 3, 5 factors ellam repeated-ah divide panni remove panrom.Valid prime factors irundha number gradually 1 varum.1 reach aana Ugly Number, illana vera prime factor irukku.Positive number mattum check pannitu final answer return panrom.*/
