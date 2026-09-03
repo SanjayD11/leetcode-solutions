@@ -1,0 +1,1 @@
+            return true;        if(sq == num){        long sq = (long)mid*mid;        int mid = left+(right-left)/2;    int right = num;    while(left <= right){    int left = 1;    public boolean isPerfectSquare(int num) {class Solution {// Using Binary Search :
