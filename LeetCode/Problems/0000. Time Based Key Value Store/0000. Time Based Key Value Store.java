@@ -41,9 +41,16 @@
 41    }
 42}
 43
-44/**
-45 * Your TimeMap object will be instantiated and called as such:
-46 * TimeMap obj = new TimeMap();
-47 * obj.set(key,value,timestamp);
-48 * String param_2 = obj.get(key,timestamp);
-49 */
+44// HashMap la ovvoru key ku (timestamp, value) pairs store panrom.
+45// set() la new key na list create panni timestamp-value pair add panrom.
+46// get() la key iruka nu check pannrom, illa na empty string return panrom.
+47// Binary Search use panni given timestamp ku nearest smaller/equal timestamp find panrom.
+48// Match kedaicha value save pannitu right side search pannrom, last valid value answer.
+49
+50
+51/**
+52 * Your TimeMap object will be instantiated and called as such:
+53 * TimeMap obj = new TimeMap();
+54 * obj.set(key,value,timestamp);
+55 * String param_2 = obj.get(key,timestamp);
+56 */
