@@ -1,0 +1,1 @@
+}    return new int[]{length, width};    }        width--;    }      int length = area/width;    int width = (int)Math.sqrt(area);    while(area%width != 0){// Width ah sqrt(area) la irundhu start panni nearest factor search panrom.// First factor kedaicha length = area / width, adhu minimum difference rectangle.
